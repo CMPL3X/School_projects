@@ -1,3 +1,2 @@
 input = int(input())
 
-TEST
