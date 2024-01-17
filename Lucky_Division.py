@@ -1,13 +1,17 @@
 num = int(input())
+nope = False
 
 if num > 0 :
     if num % 4 == 0 or num % 7 == 0:
         print("YES")
     else :
         numList = [int(x) for x in str(num)]
-        if numList != 4 and numList != 7:
-            print("NO2")
+        for num in numList:
+            if num not in [4, 7]:
+                nope = True
+        if nope == True :
+            print("NO");
         else :
-            print("YES2")
+            print("YES")
 else :
     print("NO")
