@@ -12,3 +12,5 @@ for _ in range(num1 // 2):
 num3 = num1 / num2
 
 print(NumList[num3 - 1])
+
+# Jāpabeidz ... https://codeforces.com/problemset/problem/318/A
