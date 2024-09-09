@@ -1,15 +1,15 @@
-Lngt = input()
+Lngt = int(input())
 
-x = int(0)
+x = 0
 
-count = int(0)
+count = 0
 
-while str(count) < str(Lngt) :
+while count < Lngt :
     User_Input = str(input())
     count = count + 1
     if User_Input [1] == "+" :
         x = x + 1
-    if User_Input == "-" :
+    if User_Input [1] == "-" :
         x = x - 1
 
 print(int(x))
