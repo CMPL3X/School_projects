@@ -24,7 +24,7 @@ final_counter = 0
 
 while participants > counter :
     participant_score = int(scnd_line_split[counter])
-    if participant_score > score :
+    if participant_score > score or participant_score == 1 :
         final_counter = final_counter + 1
     counter = counter + 1
 
